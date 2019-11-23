@@ -1,7 +1,6 @@
-from copy import deepcopy
-
 from .cell import *
 from .io import *
+from .core import *
 
 
 def main():

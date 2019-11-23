@@ -37,6 +37,7 @@ def is_code_cell(cell):
 def itercells(content):
     """
     Iterator to the jupyter notebook cells
+
     Args:
         content (dict): The jupyter notebook content
 
