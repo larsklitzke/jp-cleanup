@@ -19,9 +19,9 @@ or on PyPi
 pip install jp-cleanup
 ```
 
-After installation, you can clear the output fields of a notebook `test-notebook` with
+After installation, you can clear the output fields of a notebook `testing` with
 ```bash
-jp-cleanup --file test-notebook.ipynb --clear
+jp-cleanup --file testing.ipynb --clear
 ```
 with `--clear` being an extra flag to not remove the output of a notebook accidentally. 
 
@@ -34,12 +34,12 @@ jp-cleanup --help
 ### Python
 
 Instead of running `jp-cleanup` on the command-line, you can also use the package in Python. To remove the outputs of
- a certain jupyter notebook `test-notebook`, load the file 
+ a certain jupyter notebook `testing`, load the file 
 
 ```python
 import jpcleanup as jpc
 
-path, content = jpc.load('test-notebook') # or with .ipynb
+path, content = jpc.load('testing') # or with .ipynb
 ```
 
 reset the output of all cells
