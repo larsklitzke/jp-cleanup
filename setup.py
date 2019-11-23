@@ -19,7 +19,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='jp-cleanup',
-    version='0.0.0',
+    version='0.1.0',
     description='Cleanup Jupyter Notebook files',
     long_description=open(os.path.join(os.path.dirname(__file__), 'README.md')).read(),
     long_description_content_type='text/markdown',
@@ -40,7 +40,7 @@ setup(
     include_package_data=True,
     entry_points={
         'console_scripts': [
-            'jp-cleanup=jpcleanup:main'
+            'jp-cleanup=jpcleanup:entry_main'
         ]
     }
 )

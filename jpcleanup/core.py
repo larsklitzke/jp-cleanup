@@ -14,7 +14,7 @@ def clear_field(content, field='outputs', clear_value=[]):
         clear_value (any):  The value to set the field to (default is an empty list)
 
     Returns:
-        list[dict]: The jupyter notebook content with cleared output fields.
+        dict: The jupyter notebook content with cleared output fields.
     """
 
     # make a copy of the given content to replace the output fields
